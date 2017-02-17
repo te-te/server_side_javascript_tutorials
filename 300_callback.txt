@@ -1,0 +1,12 @@
+콜백함수란?
+
+사용자가 만들었으나, 사용자가 호출하여 사용하지 않음.
+다른 함수가 인자로 받은 뒤,
+내부적으로 필요할 때 호출하여 사용 (즉, 시스템이 호출하여 사용)
+
+CALL BACK!!!
+
+ex)
+function a(callback){callback();};
+a(function(){console.log('Hello Callback')});
+ㄴ> Hello Callback
